@@ -29,7 +29,11 @@
           </a>
 
           <ul class="list top-line">
-            <li><a class="index link top" href="./index.html">Studio</a></li>
+            <li>
+              <a class="index link top active-element color" href="./index.html"
+                >Studio</a
+              >
+            </li>
             <li>
               <a class="index link top" href="./portfolio.html">Portfolio</a>
             </li>
@@ -60,7 +64,9 @@
             Effective Solutions for Your Business
           </h1>
 
-          <button class="btn first-button" type="button">Order Service</button>
+          <button class="btn first-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -412,5 +418,15 @@
         </div>
       </div>
     </footer>
+    <div class="is-hidden modal" data-modal>
+      <div class="modal-bg">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg width="8" height="8" class="close-svg">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>

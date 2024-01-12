@@ -426,7 +426,7 @@ body {
 }
 
 .firsttitle {
-    color: #f4f4f4fd;
+    color: #434455;;
 }
 
 .logoc {
@@ -742,7 +742,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4f4fd;
+    color: var(--CLOUD, #F4F4FD);
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
